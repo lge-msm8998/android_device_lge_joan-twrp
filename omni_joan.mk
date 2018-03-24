@@ -13,7 +13,7 @@ PRODUCT_PACKAGES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := joan
-PRODUCT_MODEL := LG-Joan
+PRODUCT_MODEL := LG-V30
 PRODUCT_NAME := omni_joan
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
