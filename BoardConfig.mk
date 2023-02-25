@@ -82,3 +82,8 @@ TW_EXTRA_LANGUAGES := true
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
+
+# libinit
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_joan
+TARGET_RECOVERY_DEVICE_MODULES := libinit_joan
