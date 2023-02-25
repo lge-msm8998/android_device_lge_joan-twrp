@@ -4,6 +4,9 @@ DEVICE_TREE := device/lge/joan
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := msm8998
 
+# Workaround the fact that we have a minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
