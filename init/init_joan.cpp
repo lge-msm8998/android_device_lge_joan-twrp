@@ -91,7 +91,7 @@ void init_target_properties()
         Unified builds that work around the firmware signing also checks for 
         h932 in asserts either way, so this shouldn't break anything?
     */
-    if(model.find("LG-H932") != std::string::npos)
+    if(model.find("932") != std::string::npos)
         property_override("ro.product.device", "h932");
 }
 
