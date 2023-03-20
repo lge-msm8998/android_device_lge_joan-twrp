@@ -92,7 +92,8 @@ void init_target_properties()
         h932 in asserts either way, so this shouldn't break anything?
     */
     if(model.find("932") != std::string::npos)
-        property_override("ro.product.device", "h932");
+        if(model.find("PR") == std::string::npos)
+            property_override("ro.product.device", "h932");
 }
 
 void vendor_load_properties(void) {
