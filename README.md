@@ -3,11 +3,11 @@ Tree for building TWRP for LGE V30 (Joan)
 
 ## TWRP device tree for Joan (LG V30)
 
-https://github.com/SGCMarkus/android_device_lge_joan-twrp/tree/android-8.1
+https://github.com/lifehackerhansol-android/android_device_lge_joan-twrp/tree/android-9.0
 
 ## Kernel Sources
 
-https://github.com/SGCMarkus/android_kernel_lge_msm8998/tree/twrp-7.1
+https://github.com/LineageOS/android_kernel_lge_msm8998
 
 ## How to compile
 
